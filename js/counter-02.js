@@ -20,5 +20,16 @@ window.addEventListener('click', (e) => {
     // удаляем товар из корзины
     e.target.closest('.cart-item').remove();
     }
+    
+    // отображение статуса корзины пустая / полная
+    toggleCartStatus();
+
+    // пересчет стоимости товаров в корзине
+    calcCartPriceAndDelivery();
+
+    // проверяем на + или -
+    if (e.target.hasAttribute('data-action') && e.target.closest('.cart-wrapper')) {
+      calcCartPriceAndDelivery();
+    }
   }
 });

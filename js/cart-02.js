@@ -63,4 +63,9 @@ cartWrapper.insertAdjacentHTML('beforeend', cartItemHtml);
     // сбрасываем счетчик товара на 1
     card.querySelector('[data-counter]').innerText = '1';
   }
-})
+  // отображение статуса корзины пустая / полная
+  toggleCartStatus();
+
+  // пересчет общей стоимости товаров в корзине
+  calcCartPriceAndDelivery();
+});

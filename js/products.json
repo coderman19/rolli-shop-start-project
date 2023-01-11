@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Филадельфия Хит Ролл",
+    "ItemsInBox": 6,
+    "weight": 180,
+    "price": 300,
+    "imgSrc": "philadelphia.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Калифорния Темпура",
+    "ItemsInBox": 6,
+    "weight": 205,
+    "price": 250,
+    "imgSrc": "california-tempura.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Калифорния Хит",
+    "ItemsInBox": 6,
+    "weight": 240,
+    "price": 320,
+    "imgSrc": "california-hit.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Калифорния",
+    "ItemsInBox": 6,
+    "weight": 230,
+    "price": 350,
+    "imgSrc": "zapech-california.jpg"
+  }
+]

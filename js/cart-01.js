@@ -18,7 +18,6 @@ window.addEventListener('click', (e) => {
       price: card.querySelector('.price__currency').innerText,
       counter: card.querySelector('[data-counter]').innerText,
     };
-    console.log(productInfo);
 
     // формируем разметку товара в корзине
     const cartItemHtml = `
@@ -49,8 +48,7 @@ window.addEventListener('click', (e) => {
                     </div>
                   </div>
                 </div>
-    `;
-    console.log(cartItemHtml);
+                `;
     cartWrapper.insertAdjacentHTML('beforeend', cartItemHtml);
   }
 })
